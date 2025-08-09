@@ -27,9 +27,8 @@ All datasets required to reproduce the results of the four applications in the p
 https://doi.org/10.5281/zenodo.16777726
 ## Program Structure & Usage
 
-### **1. TRGK Creator**
-Located in the `TRGK creater` folder.  
-This code constructs the Urban Traffic ST-KG in [Neo4j](https://neo4j.com/):
+### **1. TRGK Creator Folder**
+This folder constructs the Urban Traffic ST-KG in [Neo4j](https://neo4j.com/):
 
 - `road.ipynb` – Builds **road** entities and `touch` relationships between roads.  
 - `grid.ipynb` – Builds **grid** entities and `adjacency` relationships between grids.  
@@ -38,14 +37,17 @@ This code constructs the Urban Traffic ST-KG in [Neo4j](https://neo4j.com/):
 - `Cross relation construction.ipynb` – Builds `within` relationships between roads and grids.  
 - `h-name in state.ipynb` – Embeds the ID of the grid entity with a `located_in` relationship into each state entity to optimize queries.  
 - `TRKG index creater.ipynb` – Creates indexes for the constructed entities.
-![ST-KG Structure](images/figure8.png)
-### **2. Congestion Level Assessment**
+<p align="center">
+  <img src="images/绘图8.png" alt="ST-KG Structure" width="600"><br>
+  <em>Structure of the Urban Traffic Spatio-Temporal Knowledge Graph (ST-KG)</em>
+</p>
 
-Located in `Congestion level assessment`:
 
+### **2. Congestion Level Assessment Folder**
 - `v_acc.ipynb` – Calculates the average vehicle speed within each grid cell.
 
 ---
+### **3. Spatiotemporal Analysis of Urban Traffic Congestion Dynamics Folder**
 
 
 
