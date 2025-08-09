@@ -38,6 +38,7 @@ This code constructs the Urban Traffic ST-KG in [Neo4j](https://neo4j.com/):
 - `Cross relation construction.ipynb` – Builds `within` relationships between roads and grids.  
 - `h-name in state.ipynb` – Embeds the ID of the grid entity with a `located_in` relationship into each state entity to optimize queries.  
 - `TRKG index creater.ipynb` – Creates indexes for the constructed entities.
+![ST-KG Structure](images/绘图8.tif)
 ### **2. Congestion Level Assessment**
 
 Located in `Congestion level assessment`:
