@@ -82,6 +82,10 @@ llm = ChatOpenAI(
 - The `cause.ipynb` notebook builds upon the results from `LLM-Traffic-agent.ipynb` to further compute traffic flow statistics.  
 - It also generates relevant visualizations that can be used in combination with external event data to identify the causes of congestion.
 
+## Naming Notes
+
+- In the paper, the *grid* is hexagonal in shape; therefore, it is referred to as **honeycomb** in the dataset.  
+- The *state* in the paper is derived from mapped trajectory points and is directly referred to as **trajectory_point** in the dataset.
 
 
 
