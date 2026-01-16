@@ -109,9 +109,12 @@ Based on the Urban Traffic ST-KG constructed in **Step 1** and the congestion le
 
 - **`temporal mode and group.ipynb`**  
   Divides the **April 2015 traffic data** into **three temporal modes**, each consisting of **five time groups**, and computes the **average vehicle speed of all grid cells** within each time group to characterize temporal congestion patterns.
+  - `congestion_level.xlsx`: This file provides an explicit mapping between the batch index used in the model and the corresponding real-world time intervals.
 
 - **`ST transitions plot.ipynb`**  
   Maps the **average vehicle speed** in each time group to the corresponding **congestion level**, and generates the required **spatiotemporal transition visualizations** of urban traffic congestion.
+  - `congestion_level.xlsx`: This file statistically summarizes the number of grid cells under different congestion levels across different temporal modes.
+
 
 ---
 ### Step 4. traffic Flow Speed Prediction at the Regional Scale Folder
@@ -188,6 +191,8 @@ The LLM-Agent interacts with the Urban Traffic ST-KG to support semantic reasoni
 
 - **`LLM-Traffic-agent.ipynb`**  
   Implements the **construction and application of the LLM-Agent**, enabling intelligent question answering on traffic congestion by querying and reasoning over the Urban Traffic ST-KG.
+  - `Tools/chromedriver-win64/`: This folder stores the Chrome WebDriver executable required for automated browser control during map visualization export.
+  
 
 #### Utilities
 
