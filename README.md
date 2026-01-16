@@ -11,7 +11,15 @@ Specifically, the repository provides:
   4. **Tracing and analysis of congestion causes**
 
 ---
+# Data Availability
 
+- All **datasets, code, and detailed implementation instructions** required to construct the **Urban Traffic Spatio-Temporal Knowledge Graph (ST-KG)** and reproduce the experimental results in the paper are publicly available in our Zenodo repository:  
+  👉 [https://doi.org/10.5281/zenodo.18229300](https://doi.org/10.5281/zenodo.18229300)
+- **Notes on trajectory data:**
+  1. The released dataset includes **two representative taxi trajectories** due to data sharing restrictions.
+  2. The **full taxi trajectory dataset** used in the experiments is available **upon reasonable request from the authors**.
+
+---
 ## Main Requirements
 
 The code has been tested with the following dependencies:
