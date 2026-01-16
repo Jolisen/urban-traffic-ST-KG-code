@@ -109,7 +109,7 @@ Based on the Urban Traffic ST-KG constructed in **Step 1** and the congestion le
 
 - **`temporal mode and group.ipynb`**  
   Divides the **April 2015 traffic data** into **three temporal modes**, each consisting of **five time groups**, and computes the **average vehicle speed of all grid cells** within each time group to characterize temporal congestion patterns.
-  - `congestion_level.xlsx`: This file provides an explicit mapping between the batch index used in the model and the corresponding real-world time intervals.
+  - `batch_time(...).csv`: This file provides an explicit mapping between the batch index used in the model and the corresponding real-world time intervals.
 
 - **`ST transitions plot.ipynb`**  
   Maps the **average vehicle speed** in each time group to the corresponding **congestion level**, and generates the required **spatiotemporal transition visualizations** of urban traffic congestion.
